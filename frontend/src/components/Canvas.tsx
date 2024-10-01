@@ -1,6 +1,6 @@
-import {useEffect, useRef} from 'react';
+import React, {useEffect, useRef} from 'react';
 import {apiURL, drawPoint} from '../constants';
-import {Pixel} from '../../types';
+import {Pixel} from '../types';
 
 const Canvas = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
